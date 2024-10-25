@@ -43,26 +43,26 @@ export const Output = (
         <div>
           Hi there! I&apos;m <span className="text-teal-400">Pratham Srivastava</span>, a passionate developer working primarily with <span className="text-teal-400">React</span>, <span className="text-teal-400">Node.js</span>, and <span className="text-teal-400">TypeScript</span>. I love creating full-stack applications and exploring new technologies. When I&apos;m not coding, you can find me diving into tech books or enjoying some music.
           <br />
-          Currently, exploring<span className="text-teal-400">blockchain technology</span> and building some projects around it!
+          Currently, exploring<span className="text-teal-400"> blockchain technology</span> and building some projects around it!
         </div>
       );
     case "socials":
       return (
         <div>
           Thanks for your interest! Here are my online profiles: <br />
-          <span className="text-purple-400 ml-3">
+          <span className="text-blue-500 ml-3">
             <a href="https://github.com/pratham-srivastava-07">Github </a>
           </span>
           <br />
-          <span className="text-purple-400 ml-3">
+          <span className="text-blue-500 ml-3">
             <a href="https://x.com/pratham_dev07">Twitter </a> 
           </span>
           <br />
-          <span className="text-purple-400 ml-3">
+          <span className="text-blue-500 ml-3">
             <a href="https://www.linkedin.com/in/pratham-srivastava-047813258/">LinkedIn </a> 
           </span>
           <br />
-          <span className="text-purple-400 ml-3">
+          <span className="text-blue-500 ml-3">
             <a href="mailto:prathamrajsri2003@gmail.com">Mail </a> - prathamrajsri2003@gmail.com
           </span>
           <br />
@@ -73,7 +73,7 @@ export const Output = (
         <div>
           <span className="text-teal-400 ml-3">Languages- </span>
           <br />
-          <span className="ml-7">JavaScript, TypeScript, Python, (Currently trying Golang)</span>
+          <span className="ml-7">JavaScript, TypeScript, Python, Currently trying Golang</span>
           <br />
           <span className="text-teal-400 ml-3">Frameworks/Libraries - </span>
           <br />
@@ -153,6 +153,7 @@ export const Output = (
     case "clear":
       setCommand([]);
       return "";
+      
     case "resume":
       window.open("https://drive.google.com/file/d/19hvLnxsfcAK2OxvGvT1vqcCGHQkw8hKy/view?usp=drive_link");
       return "Opening resume...";
