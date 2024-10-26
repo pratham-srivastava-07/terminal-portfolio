@@ -20,7 +20,7 @@ export default function CommandInput()  {
         {command.map((item, index) => (
         <div key={index}>
           <div className="flex flex-row mb-0.5">
-            <div className="text-teal-500 font-bold ml-10 ">
+            <div className="text-blue-500 font-bold ml-10 ">
               {" "}
               dev@explorer~${" "}
             </div>
@@ -37,7 +37,7 @@ export default function CommandInput()  {
         </div>
       ))}
       <div className="flex flex-row">
-        <div className="text-teal-500 font-bold ml-10 selection:bg-yellow-900">
+        <div className="text-blue-500 font-bold ml-10 selection:bg-yellow-900">
           {" "}
           dev@explorer~${" "}
         </div>

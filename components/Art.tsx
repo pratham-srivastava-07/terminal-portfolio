@@ -2,7 +2,7 @@
 import { Typewriter } from 'react-simple-typewriter';
 export default function Art() {
     return (
-        <div className="text-3xl font-bold flex items-center justify-center pt-5">
+        <div className="text-3xl font-bold flex items-center justify-center pt-5 font-serif">
             
           <span>Hi &lt;</span>
           <span>

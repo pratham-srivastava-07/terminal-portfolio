@@ -20,49 +20,49 @@ export const Output = (
         <div className="pt-2">
           <p className=''>Available commands:</p> <br />
           {/* <br /> */}
-          <span className="text-teal-400 ml-3 pt-5"> about</span> - A little about me! <br />
-          <br />
-          <span className="text-teal-400 ml-3 pt-3"> socials</span> - Find me on the internet! <br />
-          <br />
-          <span className="text-teal-400 ml-3 pt-3"> skills</span> - My expertise and tech stack <br />
-          <br />
-          <span className="text-teal-400 ml-3 pt-3"> projects</span> - Check out my work! <br />
-          <br />
-          <span className="text-teal-400 ml-3 pt-3"> resume</span> - View my resume <br />
-          <br />
-          <span className="text-teal-400 ml-3 pt-3"> clear</span> - Clear the terminal <br />
-          <br />
-          <span className="text-teal-400 ml-3 pt-3"> experience</span> - My work history <br />
-          <br />
-          <span className="text-teal-400 ml-3 pt-3"> goals</span> - My future aspirations <br />
-          <br />
+          <span className="text-blue-400 ml-3 pt-5"> about</span> - A little about me! <br />
+          
+          <span className="text-blue-400 ml-3 pt-3"> socials</span> - Find me on the internet! <br />
+          
+          <span className="text-blue-400 ml-3 pt-3"> skills</span> - My expertise and tech stack <br />
+          
+          <span className="text-blue-400 ml-3 pt-3"> projects</span> - Check out my work! <br />
+         
+          <span className="text-blue-400 ml-3 pt-3"> resume</span> - View my resume <br />
+          
+          <span className="text-blue-400 ml-3 pt-3"> clear</span> - Clear the terminal <br />
+          
+          <span className="text-blue-400 ml-3 pt-3"> experience</span> - My work history <br />
+          
+          <span className="text-blue-400 ml-3 pt-3"> goals</span> - My future aspirations <br />
+          
         </div>
       );
     case "about":
       return (
         <div>
-          Hi there! I&apos;m <span className="text-teal-400">Pratham Srivastava</span>, a passionate developer working primarily with <span className="text-teal-400">React</span>, <span className="text-teal-400">Node.js</span>, and <span className="text-teal-400">TypeScript</span>. I love creating full-stack applications and exploring new technologies. When I&apos;m not coding, you can find me diving into tech books or enjoying some music.
+          Hi there! I&apos;m <span className="text-blue-400">Pratham Srivastava</span>, a passionate developer working primarily with <span className="text-teal-400">React</span>, <span className="text-teal-400">Node.js</span>, and <span className="text-teal-400">TypeScript</span>. I love creating full-stack applications and exploring new technologies. When I&apos;m not coding, you can find me diving into tech books or enjoying some music.
           <br />
-          Currently, exploring<span className="text-teal-400"> blockchain technology</span> and building some projects around it!
+          Currently, exploring<span className="text-blue-400"> blockchain technology</span> and building some projects around it!
         </div>
       );
     case "socials":
       return (
         <div>
           Thanks for your interest! Here are my online profiles: <br />
-          <span className="text-blue-500 ml-3">
-            <a href="https://github.com/pratham-srivastava-07">Github </a>
+          <span className="text-blue-500 ml-3 underline">
+            <a href="https://github.com/pratham-srivastava-07" className='text-blue-400 underline'>Github</a>
           </span>
           <br />
-          <span className="text-blue-500 ml-3">
-            <a href="https://x.com/pratham_dev07">Twitter </a> 
+          <span className="text-blue-400 ml-3 underline">
+            <a href="https://x.com/pratham_dev07" className='underline'>Twitter </a> 
           </span>
           <br />
-          <span className="text-blue-500 ml-3">
-            <a href="https://www.linkedin.com/in/pratham-srivastava-047813258/">LinkedIn </a> 
+          <span className="text-blue-400 ml-3 underline">
+            <a href="https://www.linkedin.com/in/pratham-srivastava-047813258/" className='underline'>LinkedIn </a> 
           </span>
           <br />
-          <span className="text-blue-500 ml-3">
+          <span className="ml-3">
             <a href="mailto:prathamrajsri2003@gmail.com">Mail </a> - prathamrajsri2003@gmail.com
           </span>
           <br />
@@ -71,15 +71,15 @@ export const Output = (
     case "skills":
       return (
         <div>
-          <span className="text-teal-400 ml-3">Languages- </span>
+          <span className="text-blue-400 ml-3">Languages- </span>
           <br />
           <span className="ml-7">JavaScript, TypeScript, Python, Currently trying Golang</span>
           <br />
-          <span className="text-teal-400 ml-3">Frameworks/Libraries - </span>
+          <span className="text-blue-400 ml-3">Frameworks/Libraries - </span>
           <br />
           <span className="ml-7">React (Next.js), Node.js, Express</span>
           <br />
-          <span className="text-teal-400 ml-3">Databases/Infrastructures - </span>
+          <span className="text-blue-400 ml-3">Databases/Infrastructures - </span>
           <br />
           <span className="ml-7">PostgreSQL, Docker</span>
         </div>
@@ -155,21 +155,21 @@ export const Output = (
       return "";
       
     case "resume":
-      window.open("https://drive.google.com/file/d/19hvLnxsfcAK2OxvGvT1vqcCGHQkw8hKy/view?usp=drive_link");
+      window.open("https://drive.google.com/file/d/15k4caydAwgUQt7PKKkFtS_EvDECa0NG5/view?usp=sharing");
       return "Opening resume...";
     case "experience":
       return (
         <div>
           <br />
-          <span className="text-teal-400 ml-3">1. </span>
+          <span className="text-blue-400 ml-3">1. </span>
           <span className="text-purple-400">SDE Intern at a <Link href={'https://www.linkedin.com/feed/update/urn:li:activity:7247244444192718848/'}> Finland based startup (Oct&apos;24 - Present)</Link></span>
           <br />
           <br />
-          <span className="text-teal-400 ml-3">2. </span>
+          <span className="text-blue-400 ml-3">2. </span>
           <span className="text-purple-400">Freelanced a bit</span> - Worked on various projects, primarily in full stack development.
           <br />
           <br />
-          <span className="text-teal-400 ml-3">2. </span>
+          <span className="text-blue-400 ml-3">2. </span>
           <span className="text-purple-400">SDE Intern at Ten:Marketing (Aug&apos;23 - Mar&apos;24)</span> - Worked on React + Node
           <br />
         </div>
@@ -184,7 +184,7 @@ export const Output = (
       return (
         <div>
           <span className="text-red-500"> Command not found. </span> <br />
-          Type <span className="text-teal-400">help</span> to get a list of available commands.
+          Type <span className="text-blue-400">help</span> to get a list of available commands.
         </div>
       );
   }
