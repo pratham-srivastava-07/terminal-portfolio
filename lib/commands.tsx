@@ -155,7 +155,7 @@ export const Output = (
       return "";
       
     case "resume":
-      window.open("https://drive.google.com/file/d/15k4caydAwgUQt7PKKkFtS_EvDECa0NG5/view?usp=sharing");
+      window.open("https://drive.google.com/file/d/1h-5Fd9IbxADD1ZtcB9ViVlppa8UOMDk2/view?usp=sharing");
       return "Opening resume...";
     case "experience":
       return (
